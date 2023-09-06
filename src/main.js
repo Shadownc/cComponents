@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import ElementUI from 'element-ui';
 import 'assets/css/tailwindcss.css'
+import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import { createPinia, PiniaVuePlugin } from 'pinia'
 Vue.use(ElementUI)
