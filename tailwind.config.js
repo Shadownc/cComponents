@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
+  corePlugins: {
+    preflight: false,
+  },
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -8,14 +11,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    // function ({ addBase }) {
-    //   addBase({
-    //     ".el-button": {
-    //       "background-color": "var(--el-button-bg-color,var(--el-color-white))"
-    //     }
-    //   });
-    // }
-  ],
+  plugins: [],
 }
 

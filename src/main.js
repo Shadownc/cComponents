@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import 'assets/css/tailwindcss.css'
+import 'assets/css/preflight.css'
 import App from './App.vue'
 import router from './router'
 import ElementUI from 'element-ui';
