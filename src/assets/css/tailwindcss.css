@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+
+    .el-button,
+    .el-button[type="button"] {
+        background-color: var(--el-button-bg-color, var(--el-color-white));
+    }
+}
