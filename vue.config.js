@@ -5,7 +5,7 @@ const resolve = (dir) => {
 }
 module.exports = defineConfig({
   transpileDependencies: true,
-  publicPath:'./',
+  publicPath:'/cComponents',
   chainWebpack: config => {
     config.resolve.alias
       .set("@", resolve("src"))
