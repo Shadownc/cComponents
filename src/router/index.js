@@ -49,6 +49,11 @@ const routes = [
     name: '3DRotate',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/3D-rotateDemo.vue')
   },
+  {
+    path: '/3d-map',
+    name: '3DMap',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/3D-map.vue')
+  },
 ]
 
 const router = new VueRouter({

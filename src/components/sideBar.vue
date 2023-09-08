@@ -51,7 +51,8 @@ export default {
         { name: "网站一键悼念主题", path: "/grayscale" },
         { name: "3D词云", path: "/worldCloud" },
         { name: "水印", path: "/waterMark" },
-        {name:"3D旋转动画",path:'/3d-rotate'}
+        {name:"3D旋转动画",path:'/3d-rotate'},
+        {name:"3D地图",path:'/3d-map'}
       ],
     };
   },
