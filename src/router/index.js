@@ -54,6 +54,11 @@ const routes = [
     name: '3DMap',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/3D-map.vue')
   },
+  {
+    path:'/table-colMerge',
+    name: 'tableColMerge',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/tableColMerge.vue')
+  }
 ]
 
 const router = new VueRouter({
