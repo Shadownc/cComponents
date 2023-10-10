@@ -53,7 +53,8 @@ export default {
         { name: "水印", path: "/waterMark" },
         {name:"3D旋转动画",path:'/3d-rotate'},
         {name:"3D地图",path:'/3d-map'},
-        {name:"el-table合并行",path:'/table-colMerge'}
+        {name:"el-table合并行",path:'/table-colMerge'},
+        {name:"截图功能",path:'/screenshot-view'}
       ],
     };
   },

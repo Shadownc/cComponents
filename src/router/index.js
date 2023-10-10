@@ -58,6 +58,11 @@ const routes = [
     path:'/table-colMerge',
     name: 'tableColMerge',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/tableColMerge.vue')
+  },
+  {
+    path:'/screenshot-view',
+    name: 'screenshotView',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/screenshotView.vue')
   }
 ]
 
