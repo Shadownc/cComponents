@@ -63,6 +63,11 @@ const routes = [
     path:'/screenshot-view',
     name: 'screenshotView',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/screenshotView.vue')
+  },
+  {
+    path:'/threejs-map',
+    name: 'threejsMapView',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/threejsMapView.vue')
   }
 ]
 

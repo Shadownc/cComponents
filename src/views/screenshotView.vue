@@ -25,6 +25,7 @@ export default {
     };
   },
   beforeDestroy() {
+    if(!this.screenShot) return
     this.screenShot.destroyComponents();
   },
   methods: {

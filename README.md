@@ -8,3 +8,4 @@
 - [3D地图](https://shadownc.github.io/cComponents/#/3d-map) 
 - [el-table合并行演示](https://shadownc.github.io/cComponents/#/table-colMerge) 
 - [截图组件](https://shadownc.github.io/cComponents/#/screenshot-view) 
+- [threejs3D地图](https://shadownc.github.io/cComponents/#/threejs-map) 

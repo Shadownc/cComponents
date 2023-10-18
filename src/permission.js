@@ -1,6 +1,6 @@
 import router from './router'
 //存放不需要登录即可访问的path
-const whiteList = ['/','/login', '/cCode', '/grayscale', '/worldCloud', '/waterMark', '/3d-rotate', '/3d-map','/table-colMerge','/screenshot-view'];
+const whiteList = ['/','/login', '/cCode', '/grayscale', '/worldCloud', '/waterMark', '/3d-rotate', '/3d-map','/table-colMerge','/screenshot-view','/threejs-map'];
 //获取token判断是否已登录，自行修改参数
 let hasToken = localStorage.getItem('token');
 const routeBefore = (to, callBack) => {
