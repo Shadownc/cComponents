@@ -55,7 +55,8 @@ export default {
         {name:"3D地图",path:'/3d-map'},
         {name:"el-table合并行",path:'/table-colMerge'},
         {name:"截图功能",path:'/screenshot-view'},
-        {name:"threejs3D地图",path:'/threejs-map'}
+        {name:"threejs3D地图",path:'/threejs-map'},
+        {name:"翻牌器效果",path:'/flipper-view'}
       ],
     };
   },

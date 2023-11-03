@@ -68,6 +68,11 @@ const routes = [
     path:'/threejs-map',
     name: 'threejsMapView',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/threejsMapView.vue')
+  },
+  {
+    path:'/flipper-view',
+    name: 'flipperView',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/flipperView.vue')
   }
 ]
 

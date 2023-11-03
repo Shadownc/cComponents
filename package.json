@@ -10,6 +10,7 @@
     "axios": "^1.5.0",
     "core-js": "^3.8.3",
     "d3": "7.8.4",
+    "dayjs": "^1.11.10",
     "echarts": "^5.4.3",
     "element-china-area-data": "^6.0.2",
     "element-ui": "^2.15.14",

@@ -73,7 +73,8 @@ export default {
       labelRenderer.setSize((window.innerWidth - 240), window.innerHeight);
     });
 
-    const url = "https://geo.datav.aliyun.com/areas_v3/bound/330000_full.json";
+    // const url = "https://geo.datav.aliyun.com/areas_v3/bound/330000_full.json";
+    const url='/cComponents/json/330000_full.json'
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
