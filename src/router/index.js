@@ -55,24 +55,29 @@ const routes = [
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/3D-map.vue')
   },
   {
-    path:'/table-colMerge',
+    path: '/table-colMerge',
     name: 'tableColMerge',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/tableColMerge.vue')
   },
   {
-    path:'/screenshot-view',
+    path: '/screenshot-view',
     name: 'screenshotView',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/screenshotView.vue')
   },
   {
-    path:'/threejs-map',
+    path: '/threejs-map',
     name: 'threejsMapView',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/threejsMapView.vue')
   },
   {
-    path:'/flipper-view',
+    path: '/flipper-view',
     name: 'flipperView',
     component: () => import(/* webpackChunkName: "cComponents" */ '../views/flipperView.vue')
+  },
+  {
+    path: '/seal-view',
+    name: 'sealView',
+    component: () => import(/* webpackChunkName: "cComponents" */ '../views/sealView.vue')
   }
 ]
 

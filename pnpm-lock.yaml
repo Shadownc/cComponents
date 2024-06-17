@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@pansy/seal': ^0.1.4
   '@vue/cli-plugin-babel': ~5.0.0
   '@vue/cli-plugin-router': ~5.0.0
   '@vue/cli-service': ~5.0.0
@@ -27,6 +28,7 @@ specifiers:
   vue-template-compiler: ^2.6.14
 
 dependencies:
+  '@pansy/seal': 0.1.4
   axios: 1.5.0
   core-js: 3.32.1
   d3: 7.8.4
@@ -1374,6 +1376,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
     dev: true
+
+  /@pansy/seal/0.1.4:
+    resolution: {integrity: sha512-XdKrPdxKSsvkZXTGbRoSbCavkt6PnT2jshvghD7uzcN/eQ3yypGw8a7qla3Duak6r31tSAYK+vqNzNxu1nmUMw==}
+    dev: false
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}

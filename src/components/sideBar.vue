@@ -4,9 +4,9 @@
   >
     <div class="flex items-center p-2 space-x-4">
       <img
-        src="https://source.unsplash.com/100x100/?portrait"
+        src="https://images.100769.xyz/file/32ee1c0f53d700cc26d4c.gif"
         alt=""
-        class="w-12 h-12 rounded-full dark:bg-gray-500"
+        class="w-12 h-15 rounded-full dark:bg-gray-500"
       />
       <div>
         <h2 class="text-lg font-semibold">Demo</h2>
@@ -56,7 +56,8 @@ export default {
         {name:"el-table合并行",path:'/table-colMerge'},
         {name:"截图功能",path:'/screenshot-view'},
         {name:"threejs3D地图",path:'/threejs-map'},
-        {name:"翻牌器效果",path:'/flipper-view'}
+        {name:"翻牌器效果",path:'/flipper-view'},
+        {name:"印章制作",path:'/seal-view'}
       ],
     };
   },
