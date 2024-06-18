@@ -91,6 +91,7 @@ export default {
     mounted() {
         this.$nextTick(() => {
             this.seal = new Seal(this.$refs.seal, this.sealConfig);
+            // console.log(this.seal);
         })
 
     },

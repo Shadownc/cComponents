@@ -8,11 +8,17 @@
         </el-row>
         <el-row type="flex" justify="center" class="mt-4 border border-[#eaeefb]">
             <el-col :span="6" class="py-4 border-r border-[#eaeefb]">
-                <seal :sealConfig="sealConfig"></seal>
+                <seal ref="sealRef" :sealConfig="sealConfig"></seal>
             </el-col>
             <el-col :span="16" class="p-4 max-h-[800px] overflow-auto">
                 <el-scrollbar style="height:100%">
-                    <div class="text-base font-bold">配置面板</div>
+                    <div class="flex justify-between items-center px-2">
+                        <div class="text-base font-bold">配置面板</div>
+                        <div>
+                            <el-button type="text" @click="downloadSeal">下载印章</el-button>
+                            <el-button type="text" @click="copyConfig">复制配置</el-button>
+                        </div>
+                    </div>
                     <div class="text-sm font-bold mt-4">基本配置</div>
                     <el-form label-position="top" label-width="80px" :model="sealConfig" class="!overflow-x-hidden">
                         <el-row :gutter="20">
@@ -327,6 +333,7 @@
 
 <script>
 import seal from '@/components/seal.vue'
+import { copyTextToClipboard, downloadImage } from '@/utils'
 export default {
     components: {
         seal,
@@ -448,6 +455,13 @@ export default {
             this.$set(this.sealConfig.subText, 'color', v)
             this.$set(this.sealConfig.centerText, 'color', v)
             this.$set(this.sealConfig.serNo, 'color', v)
+        },
+        downloadSeal() {
+            let baseData = this.$refs.sealRef.seal.toBase64();
+            downloadImage(baseData)
+        },
+        copyConfig() {
+            copyTextToClipboard(`const sealConfig=${JSON.stringify(this.sealConfig)}`)
         }
     },
 }
