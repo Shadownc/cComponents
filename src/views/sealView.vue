@@ -458,7 +458,8 @@ export default {
         },
         downloadSeal() {
             let baseData = this.$refs.sealRef.seal.toBase64();
-            downloadImage(baseData)
+            // 似乎直接调用toBase64方法会直接下载 所以注释掉下面的手动下载
+            // downloadImage(baseData)
         },
         copyConfig() {
             copyTextToClipboard(`const sealConfig=${JSON.stringify(this.sealConfig)}`)
